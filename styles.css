@@ -1,8 +1,7 @@
 /* Master Styles */
 
-body{
-
-  font-family: "Lato", sans-serif;
+body {
+  font-family: "Raleway", sans-serif;
 }
 
 .container {
@@ -15,7 +14,13 @@ body{
   background-color: #2684da;
   margin-bottom: 2px;
   height: 50px;
-  box-shadow: 1px 3px;
+  box-shadow: 0px 8px 27px rgba(0, 0, 0, 0.1);
+}
+
+.Programs {
+  width: 400px;
+  height: 200px;
+  display: block;
 }
 
 .tagline {
@@ -27,17 +32,20 @@ body{
 
 .Welcome {
   padding-left: 10px;
-  padding-top: 3px;
-  font-weight: bold;
+  padding-top: 2.4px;
+  font-size: 20px;
+  padding-bottom: 2.4px;
 }
 
 .logo img {
-  width: 15%;
-  height: 15%;
+  width: 17%;
+  height: 17%;
+  box-shadow: 0px 8px 27px rgba(38, 132, 218, 0.1);
 }
 
 .Zero {
-  font-size: 10px;
+  font-size: 15px;
+  font-weight: bold;
 }
 
 .logo-bg {
@@ -52,14 +60,14 @@ body{
 .custom-select {
   font-family: Arial;
   position: relative;
-  margin-bottom: 2%;
+  margin-bottom: 0.7%;
 }
 
 .nav-wrapper {
   display: flex;
   justify-content: flex-end;
   padding: 30px;
-  background-color: grey;
+  background-color: black;
   height: 7px;
 }
 
@@ -87,11 +95,11 @@ body{
 }
 
 .nav-link-wrapper:hover {
-  border-bottom: 1px solid black;
+  border-bottom: 1px solid white;
 }
 
 .nav-link-wrapper a:hover {
-  color: black;
+  color: #2684da;
 }
 
 /* Body Styles */
@@ -104,35 +112,69 @@ body{
   background-repeat: no-repeat;
 }
 
-
 .body-img-backgroundb {
-    background-image: url("./IMAGES/chris-ried-ieic5Tq8YMk-unsplash.jpg");
-    height: 350px;
-    width: 100%;
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-  }
+  background-image: url("./IMAGES/chris-ried-ieic5Tq8YMk-unsplash.jpg");
+  height: 350px;
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
 
+.body-img-backgroundc {
+  background-image: url("./IMAGES/kelly-sikkema-gcHFXsdcmJE-unsplash.jpg");
+  height: 350px;
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
 
-  .body-img-backgroundc {
-    background-image: url("./IMAGES/kelly-sikkema-gcHFXsdcmJE-unsplash.jpg");
-    height: 350px;
-    width: 100%;
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-  }
+.body-img-backgrounde {
+  background-image: url("./IMAGES/download.jpeg");
+  height: 350px;
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
 
+.body-img-backgroundf {
+  background-image: url("./IMAGES/G3.jpeg");
+  height: 350px;
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
 
-  .body-img-backgrounde {
-    background-image: url("./IMAGES/download.jpeg");
-    height: 350px;
-    width: 100%;
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-  }
+.body-img-backgroundg {
+  background-image: url("./IMAGES/ads as Seketo Lenawala displays face masks copy.jpg");
+  height: 350px;
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.body-img-backgroundh {
+  background-image: url("./IMAGES/1_0.jpg");
+  height: 350px;
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.body-img-backgroundi {
+  background-image: url("./IMAGES/Computers have made learning interesting for children at Kimintent Primary School.  ©World Vision_Photo by Sarah Ooko.  .jpg");
+  height: 350px;
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
 .body-items-wrapper {
   padding-top: 1px;
   display: grid;
@@ -168,7 +210,6 @@ body{
   width: 50%;
   margin-bottom: 20px;
   justify-content: center;
-  
 }
 
 .img-darken {
@@ -176,25 +217,131 @@ body{
   filter: brightness(10%);
 }
 
+
+/* FOOTER */
+
+/* main class for footer design*/
+ul {
+  list-style: none;
+  padding-left: 0;
+  }
+  footer {
+  background-color:#2684da;
+  color: #bbb;
+  line-height: 1.5;
+  }
+  footer a {
+  text-decoration: none;
+  color: #eee;
+  }
+  a:hover {
+  text-decoration: underline;
+  }
+  .ft-title {
+  color: #fff;
+  font-family: ’Merriweather’, serif;
+  font-size: 1.375rem;
+  padding-bottom: 0.625rem;
+  }
+  body {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+  }
+  .container {
+  flex: 1; /* same as flex-grow: 1; */
+  }
+  
+  .ft-main {
+  padding: 1.25rem 1.875rem;
+  display: flex;
+  flex-wrap: wrap;
+  }
+  .ft-main-item {
+  padding: 1.25rem;
+  min-width: 12.5rem /*200px*/;
+  }
+  @media only screen and (min-width: 29.8125rem /*477px*/) {
+  .ft-main {
+  justify-content: space-around;
+  }
+  }
+  @media only screen and (min-width: 77.5rem /*1240px*/ ) {
+  .ft-main {
+  justify-content: space-evenly;
+  }
+  }
+  form {
+  display: flex;
+  flex-wrap: wrap;
+  }
+  input[type="email"] {
+  border: 0;
+  padding: 0.625rem;
+  margin-top: 0.3125rem;
+  }
+  input[type="submit"] {
+  background-color: black;
+  color: #fff;
+  cursor: pointer;
+  border: 0;
+  padding: 0.625rem 0.9375rem;
+  margin-top: 0.3125rem;
+  }
+  .ft-social {
+  padding: 0 1.875rem 1.25rem;
+  }
+  .ft-social-list {
+  display: flex;
+  justify-content: center;
+  border-top: 1px #777 solid; 
+  padding-top: 1.25rem;
+  }
+  .ft-social-list li {
+  margin: 0.5rem;
+  font-size: 1.25rem;
+  }
+  .ft-legal {
+  padding: 0.9375rem 1.875rem;
+  background-color: black;
+  }
+  .ft-legal-list {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  }
+  .ft-legal-list li {
+  margin: 0.125rem 0.625rem;
+  white-space: nowrap;
+  }
+  /* one before the last child */
+  .ft-legal-list li:nth-last-child(2) {
+  flex: 1; /* same as flex-grow: 1; */
+  }
+  
+
 /* ABOUT PAGE */
-.two-column-wrapper{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
+.two-column-wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
 }
 
-.profile-image-wrapper img{
-    width: 100vh;
-    height: 100%;
-    margin-top: 4.8px;
-    background-color: #2684da;
-    background-repeat: no-repeat;
-    
-    
+.profile-image-wrapper img {
+  width: 100vh;
+  height: 100%;
+  margin-top: 4.8px;
+  background: linear-gradient(rgba(0, 0, 255, 0.5), rgba(255, 255, 0, 0.5)),
+    url("./IMAGES/pexels-misha-voguel-4407897.jpg") bottom center no-repeat,
+    url("./IMAGES/chris-ried-ieic5Tq8YMk-unsplash.jpg") repeat;
+
+    background-size: cover;
+
 }
-.profile-content-wrapper{
-    padding: 30px;
+.profile-content-wrapper {
+  padding: 30px;
 }
 
-.profile-content-wrapper h2{
-    color: #2684da;
+.profile-content-wrapper h2 {
+  color: #2684da;
+  text-decoration: underline;
 }
